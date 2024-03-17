@@ -1,6 +1,6 @@
 pacman::p_load(sf,tidyverse,tidylog)
 
-city_map <- readRDS("city_map.rds") %>% 
+city_map <- readRDS("data/city_map.rds") %>% 
   print()
 
 # 東京都

@@ -12,3 +12,7 @@ data/city_map.rdsを使って白地図を作成するサンプルコード
 
 https://okumuralab.org/~okumura/stat/shape.html
 
+## サンプル: 東京都の地図
+
+![sample_tokyo_map](sample_tokyo_map.png)
+
