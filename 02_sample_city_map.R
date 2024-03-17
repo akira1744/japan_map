@@ -9,7 +9,7 @@ city_map %>%
   filter(y>35) %>%  # 島を除外
   ggplot()+
   geom_sf(fill=NA)+
-  geom_text(aes(x = x, y = y, label=city),size=2)+
+  geom_text(aes(x = x, y = y, label=city),size=3)+
   coord_sf(datum=NA)+ # グリッドの削除
   theme_void() # 軸・背景食の削除
 
